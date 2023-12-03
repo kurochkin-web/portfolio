@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Jimmy Collins Demo Version';
+    src: url('JimmyCollinsDemoVersion.eot');
+    src: url('JimmyCollinsDemoVersion.eot?#iefix') format('embedded-opentype'),
+        url('JimmyCollinsDemoVersion.woff2') format('woff2'),
+        url('JimmyCollinsDemoVersion.woff') format('woff'),
+        url('JimmyCollinsDemoVersion.svg#JimmyCollinsDemoVersion') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

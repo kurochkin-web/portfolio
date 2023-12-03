@@ -1,0 +1,192 @@
+/* ------ Fonts ------ */
+
+@font-face {
+    font-family: 'Jimmy Collins Demo Version';
+    src: url('../fonts/JimmyCollinsDemoVersion.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/JimmyCollinsDemoVersion.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/JimmyCollinsDemoVersion.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/JimmyCollinsDemoVersion.woff') format('woff'), /* Pretty Modern Browsers */
+        url('../fonts/JimmyCollinsDemoVersion.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/JimmyCollinsDemoVersion.svg#JimmyCollinsDemoVersion') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ------ Specification ------ */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: var(--color-white);
+    background-color: #030F11;
+}
+
+:root {
+	--color-red: #FC5552;
+	--color-gray-text: #6E757D;
+	--color-blue: #213354;
+	--color-white: #FFFFFF;
+}
+
+.container {
+    width: 85vw;
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:active {
+	outline: none;
+}
+
+a, button, input {
+	text-decoration: none;
+	transition: .3s all ease-out;
+	border: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	/* max-width: 100%; */
+}
+
+.d-flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	margin: 0;
+}
+
+h1 {
+	font-size: 64px;
+	color: var(--color-white, #FFF);
+	text-transform: uppercase;
+}
+/*h2 {font-size: 46px;}
+h3 {font-size: 28px;}
+h4 {font-size: 20px;}
+h5 {font-size: 16px;}*/
+
+
+/* ------ Header ------ */
+.header__wrapper {
+    padding: 22px 0;
+}
+
+.header__wrapper,
+.header__menu-list,
+.section__wrapper {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    fill: #fff;
+}
+
+/* -- menu -- */
+.header__menu-list__item:not(:first-child) {
+    margin-left: 58px;
+}
+
+.header__menu-list__item-link {
+    font-size: 20px;
+    color: var(--color-white);
+    font-weight: 600;
+}
+
+.header__menu-list__item-link:hover,
+.main__links-item:hover {
+    color: var(--color-red);
+}
+
+/* ------ Main - section ------ */
+.main-section {
+    padding-top: 100px;
+}
+
+.main__title {
+    position: relative;
+}
+
+.main__title:after {
+    content: 'Hi! My name is';
+    position: absolute;
+    top: -45px;
+    left: -45px;
+    font-family: 'Jimmy Collins Demo Version';
+    color:var(--color-red);
+    font-size: 49px;
+    text-transform: none;
+    transform: rotate(-4.801deg);
+    letter-spacing: 1.96px;
+}
+
+.main__content {
+    margin-left: 137px;
+}
+
+.main__content-text {
+    font-size: 24px;
+    color: var(--color-gray-text);
+}
+
+.main__links {
+    margin-top: 40px;
+}
+
+.main__links-item {
+    font-size: 42px;
+    color: var(--color-gray-text);
+}
+
+.main__links-item:first-child {
+    margin-right: 20px;
+}
+
+.main__illustration {
+    position: relative;
+}
+
+.img__tech {
+    position: absolute;
+}
+
+.img__tech-figma {
+    top: 52px;
+    right: 40px;
+}
+.img__tech-js {
+    top: 125px;
+    right: 98px;
+}
+.img__tech-ai {
+    top: 190px;
+    right: 26px;
+}
